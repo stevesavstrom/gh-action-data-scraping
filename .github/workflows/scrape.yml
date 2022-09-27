@@ -1,7 +1,5 @@
 
-on:
-  schedule:
-    - cron:  '*/5 * * * *' # Every 5 minutes. Ref https://crontab.guru/examples.html
+on: [workflow_dispatch]
 name: Scrape Data
 jobs:
   build:
